@@ -8,15 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		CB240B2B1FE4FF0100AA45FF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB240B2A1FE4FF0100AA45FF /* AppDelegate.m */; };
-		CB240B2E1FE4FF0100AA45FF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB240B2D1FE4FF0100AA45FF /* ViewController.m */; };
 		CB240B311FE4FF0100AA45FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB240B2F1FE4FF0100AA45FF /* Main.storyboard */; };
 		CB240B331FE4FF0100AA45FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB240B321FE4FF0100AA45FF /* Assets.xcassets */; };
 		CB240B361FE4FF0100AA45FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB240B341FE4FF0100AA45FF /* LaunchScreen.storyboard */; };
 		CB240B391FE4FF0100AA45FF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB240B381FE4FF0100AA45FF /* main.m */; };
 		CB240B431FE4FF0100AA45FF /* testProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB240B421FE4FF0100AA45FF /* testProjectTests.m */; };
 		CB240B4E1FE4FF0200AA45FF /* testProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB240B4D1FE4FF0200AA45FF /* testProjectUITests.m */; };
-		CB240B631FE4FFE300AA45FF /* secondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB240B621FE4FFE300AA45FF /* secondViewController.m */; };
-		CB240B691FE5105B00AA45FF /* DismissAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = CB240B681FE5105B00AA45FF /* DismissAnimation.m */; };
+		CB6466D2202EEA1D00533181 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6466CD202EEA1D00533181 /* ViewController.m */; };
+		CB6466D3202EEA1D00533181 /* DismissAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6466CE202EEA1D00533181 /* DismissAnimation.m */; };
+		CB6466D4202EEA1D00533181 /* secondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB6466CF202EEA1D00533181 /* secondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,8 +40,6 @@
 		CB240B261FE4FF0100AA45FF /* testProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB240B291FE4FF0100AA45FF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CB240B2A1FE4FF0100AA45FF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		CB240B2C1FE4FF0100AA45FF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CB240B2D1FE4FF0100AA45FF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		CB240B301FE4FF0100AA45FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CB240B321FE4FF0100AA45FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB240B351FE4FF0100AA45FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -53,10 +51,12 @@
 		CB240B491FE4FF0200AA45FF /* testProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB240B4D1FE4FF0200AA45FF /* testProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testProjectUITests.m; sourceTree = "<group>"; };
 		CB240B4F1FE4FF0200AA45FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CB240B611FE4FFE300AA45FF /* secondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = secondViewController.h; sourceTree = "<group>"; };
-		CB240B621FE4FFE300AA45FF /* secondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = secondViewController.m; sourceTree = "<group>"; };
-		CB240B671FE5105B00AA45FF /* DismissAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DismissAnimation.h; sourceTree = "<group>"; };
-		CB240B681FE5105B00AA45FF /* DismissAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DismissAnimation.m; sourceTree = "<group>"; };
+		CB6466CC202EEA1D00533181 /* secondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = secondViewController.h; sourceTree = "<group>"; };
+		CB6466CD202EEA1D00533181 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CB6466CE202EEA1D00533181 /* DismissAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DismissAnimation.m; sourceTree = "<group>"; };
+		CB6466CF202EEA1D00533181 /* secondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = secondViewController.m; sourceTree = "<group>"; };
+		CB6466D0202EEA1D00533181 /* DismissAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DismissAnimation.h; sourceTree = "<group>"; };
+		CB6466D1202EEA1D00533181 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,19 +107,14 @@
 		CB240B281FE4FF0100AA45FF /* testProject */ = {
 			isa = PBXGroup;
 			children = (
+				CB6466CB202EEA1D00533181 /* testprojectv */,
 				CB240B291FE4FF0100AA45FF /* AppDelegate.h */,
 				CB240B2A1FE4FF0100AA45FF /* AppDelegate.m */,
-				CB240B2C1FE4FF0100AA45FF /* ViewController.h */,
-				CB240B2D1FE4FF0100AA45FF /* ViewController.m */,
 				CB240B2F1FE4FF0100AA45FF /* Main.storyboard */,
 				CB240B321FE4FF0100AA45FF /* Assets.xcassets */,
 				CB240B341FE4FF0100AA45FF /* LaunchScreen.storyboard */,
 				CB240B371FE4FF0100AA45FF /* Info.plist */,
 				CB240B381FE4FF0100AA45FF /* main.m */,
-				CB240B611FE4FFE300AA45FF /* secondViewController.h */,
-				CB240B621FE4FFE300AA45FF /* secondViewController.m */,
-				CB240B671FE5105B00AA45FF /* DismissAnimation.h */,
-				CB240B681FE5105B00AA45FF /* DismissAnimation.m */,
 			);
 			path = testProject;
 			sourceTree = "<group>";
@@ -140,6 +135,20 @@
 				CB240B4F1FE4FF0200AA45FF /* Info.plist */,
 			);
 			path = testProjectUITests;
+			sourceTree = "<group>";
+		};
+		CB6466CB202EEA1D00533181 /* testprojectv */ = {
+			isa = PBXGroup;
+			children = (
+				CB6466CC202EEA1D00533181 /* secondViewController.h */,
+				CB6466CD202EEA1D00533181 /* ViewController.m */,
+				CB6466CE202EEA1D00533181 /* DismissAnimation.m */,
+				CB6466CF202EEA1D00533181 /* secondViewController.m */,
+				CB6466D0202EEA1D00533181 /* DismissAnimation.h */,
+				CB6466D1202EEA1D00533181 /* ViewController.h */,
+			);
+			name = testprojectv;
+			path = ../../testprojectv;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,11 +284,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB240B2E1FE4FF0100AA45FF /* ViewController.m in Sources */,
+				CB6466D2202EEA1D00533181 /* ViewController.m in Sources */,
 				CB240B391FE4FF0100AA45FF /* main.m in Sources */,
+				CB6466D3202EEA1D00533181 /* DismissAnimation.m in Sources */,
+				CB6466D4202EEA1D00533181 /* secondViewController.m in Sources */,
 				CB240B2B1FE4FF0100AA45FF /* AppDelegate.m in Sources */,
-				CB240B691FE5105B00AA45FF /* DismissAnimation.m in Sources */,
-				CB240B631FE4FFE300AA45FF /* secondViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
